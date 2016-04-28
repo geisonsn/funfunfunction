@@ -1,0 +1,20 @@
+// {
+//     'mark johansson': [
+//         {name: 'waffle iron', price: '80', quantity: '2'},
+//         {name: 'blender', price: '200', quantity: '1'},
+//         {name: 'knife', price: '10', quantity: '4'}
+//     ],
+//     'Nikita Smith': [
+//         {name: 'waffle iron', price: '80', quantity: '1'}.
+//         {name: 'knife', price: '10', quantity: '2'},
+//         {name: 'pot', price: '20', quantity: '3'}
+//     ]
+// }
+
+// var fs = require("fs")
+
+import fs from 'fs'
+
+var output = fs.readFileSync('data.txt')
+
+console.log('output', output)
